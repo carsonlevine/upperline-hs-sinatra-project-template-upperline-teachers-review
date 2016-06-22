@@ -1,0 +1,9 @@
+Empty hash to be filled with OO objects (projects)
+  User inputs project (SinatraProject.new)
+  Store @project_name as hash key
+  Store remaining information in an array value
+  :project_name => {creators, link, cover image}
+Stored hash displays information on index page, links.
+at index.erb
+  display all current sinatra projects in the hash
+  when "new project" is clicked, go to new_project.erb and add to hash
